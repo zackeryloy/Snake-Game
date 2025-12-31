@@ -17,7 +17,7 @@ def main():
 
     # pygame setup
     pygame.init()
-    screen = pygame.display.set_mode((1280, 720))
+    screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
     clock = pygame.time.Clock()
     running = True
     dt = 0
