@@ -6,6 +6,13 @@ loot finder maybe mobile swipe game
 """
 import pygame
 
+SCREEN_WIDTH = 1280
+SCREEN_HEIGHT = 720
+
+
+
+
+
 def main():
 
     # pygame setup
