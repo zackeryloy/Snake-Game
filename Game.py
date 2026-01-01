@@ -48,6 +48,25 @@ def main():
         if keys[pygame.K_d]:
             player_pos.x += 300 * dt
 
+        #pygame.display.flip()
+
+        #dt = clock.tick(60) / 1000
+
+
+
+        # class for game objects
+        class Food:
+            def __init__(self,color,center):
+                self.color = color
+                self.center = center
+
+            def draw(self):
+                pygame.draw.circle(screen, self.color, self.center, 16)
+
+        # using the Food class to create game pieces
+        food1 = Food(RED, (SCREEN_WIDTH/2,SCREEN_HEIGHT/2))
+        food1.draw()
+
         pygame.display.flip()
 
         dt = clock.tick(60) / 1000
