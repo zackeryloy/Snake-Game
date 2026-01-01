@@ -35,7 +35,7 @@ def main():
         screen.fill("black")
 
         # draw the snake
-        pygame.draw.circle(screen, (0,255,0), player_pos, 40)
+        pygame.draw.circle(screen, GREEN, player_pos, 40)
         pygame.display.flip()
 
         keys = pygame.key.get_pressed()
