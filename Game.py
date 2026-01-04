@@ -19,7 +19,7 @@ GREEN = (0, 255, 0)
 
 
 
-
+# main method (where the game runs)
 def main():
 
     # pygame setup
